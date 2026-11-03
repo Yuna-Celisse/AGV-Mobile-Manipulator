@@ -1,0 +1,64 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vs/
+.idea/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ROS 2 / colcon
+build/
+install/
+log/
+.colcon/
+
+# STM32 generated build outputs (keep CubeMX and IDE project sources)
+Debug/
+Release/
+.metadata/
+*.o
+*.obj
+*.elf
+*.axf
+*.hex
+*.bin
+*.map
+*.d
+*.su
+*.list
+
+# Python / analysis
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# MATLAB / Simulink generated files
+slprj/
+*.slxc
+*.asv
+*_ert_rtw/
+*_grt_rtw/
+
+# CAD lock and autosave files
+~$*
+*.lck
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+
+# Temporary files
+*.tmp
+*.temp
